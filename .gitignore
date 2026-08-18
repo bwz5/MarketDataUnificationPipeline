@@ -144,3 +144,7 @@ CLAUDE.md
 
 # Whatever this is
 .cache/
+
+# pyproject 
+src/mdup/__pycachce__/
+src/mdup.egg-info/
