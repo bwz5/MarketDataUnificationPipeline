@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools >= 68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mdup"
+version = "0.1.0"
+requires-python = ">= 3.11"
+dependencies = ["pytest", "pydantic"]
+
+[project.scripts]
+mdup-run = "mdup.pipeline:run"
+
+# Required for setuptools to find the correct package
+[tool.setuptools.packages.find]
+where = ["src"]
