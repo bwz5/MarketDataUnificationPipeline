@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/mdup/__init__.py
+src/mdup/pipeline.py
+src/mdup.egg-info/PKG-INFO
+src/mdup.egg-info/SOURCES.txt
+src/mdup.egg-info/dependency_links.txt
+src/mdup.egg-info/entry_points.txt
+src/mdup.egg-info/requires.txt
+src/mdup.egg-info/top_level.txt
+tests/test_adapters.py
+tests/test_alignment.py
+tests/test_schema.py
